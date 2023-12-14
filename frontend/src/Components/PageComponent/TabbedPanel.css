@@ -1,0 +1,17 @@
+.tab-button{
+    background-color: #474647;
+    width: 20vh;
+    color: #82FF9E;
+    height: 10vh;
+    box-shadow: 2vh 2vh 4vh #82FF9E;
+    width: 20vh;
+    height: 10vh;
+    border: none;
+    margin-bottom: 4vh;
+}
+.active{
+    background-color: #2EC0F9;
+    border: none;
+    width: 20vh;
+    height: 10vh;
+}

@@ -1,0 +1,69 @@
+body{
+    background-image:url('./../Image/mukiBG.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text {
+    color: #82FF9E;
+    margin: 2vh;
+}
+.title{
+    color: #82FF9E;
+    text-decoration: none;
+}
+.head-container {
+    display: flex;
+    padding: 4vh;
+    height: 15vh;
+    background-color: #474647;
+    align-items: center;
+    border-radius: 10vh;
+    margin-bottom: 8vh;
+}
+
+.header-left {
+    flex-basis: 80%;
+}
+
+.header-right {
+    flex-basis: 20%;
+}
+
+.title{
+    font-size: 8vh;
+}
+.main-container{
+    display: flex;
+    height: 70vh;
+    column-gap: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+.main-left{
+    flex-basis: 20%;
+    border: none;
+    height: 100%;
+    border-radius: 10vh;
+    background-color: #474647;
+    padding: 4vh;
+}
+.main-center{
+    flex-basis: 60%;
+    border: none;
+    height: 100%;
+    background-color: #474647;
+    border-radius: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+}
+.main-right{
+    height: 100%;
+    background-color: #474647;
+    flex-basis: 20%;
+    border-radius: 10vh;
+    border: none;
+    padding: 4vh;
+}
